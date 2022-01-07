@@ -8,7 +8,7 @@ This is a student project made for "Distributed Systems" course of department of
 
 ### About Chang-Roberts Algorithm
 
-Chang-Roberts algorithm is an improved version of LeLann's algorithm for finding the largest (or smallest) of a set of uniquely numbered processes arranged in a circle/ring. This process is also known as "leader election" in which a node is defined as leader and runs a specific task (e.g. makes a decision). Algorithm's functionality is based on the fact that each node, who wants to become leader, sends his ID and if he recieves it back then he becomes leader. In case that a node, who wants to win the election, recieves an ID larger than his ID, he discards it. Else, if the recieved ID is smaller, he forwards it to the next node, just like a node, who doesn't want to become leader, does.
+Chang-Roberts algorithm is an improved version of LeLann's algorithm for finding the largest (or smallest) of a set of uniquely numbered processes arranged in a circle/ring. This process is also known as "leader election" in which a node is defined as leader and runs a specific task (e.g. makes a decision). Algorithm's functionality is based on the fact that each node, who wants to become leader, sends his ID and if he receives it back then he becomes leader. In case that a node, who wants to win the election, receives an ID larger than his ID, he discards it. Else, if the received ID is smaller, he forwards it to the next node, just like a node, who doesn't want to become leader, does.
 
 This algorithm does <b>n(n + 1)/2</b> in worst case, <b>2n – 1</b> in best case and <b>n log n</b> in average case, total forwards of the messages until the end - election of the leader. (n = number of nodes in network)
 
