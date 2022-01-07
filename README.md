@@ -4,7 +4,7 @@
 
 This is a student project made for "Distributed Systems" course of department of Informatics - Ionian University. The main purpose of the project is to implement Chang-Roberts Election Algorithm, run it on various networks with ring topology and compare algorithm's complexity-theory (message passes) with the results of the simulations.
 
-##### [Report (greek)](https://github.com/p17griv/chang-roberts-algorithm-implementation/blob/master/report%20-%20greek.pdf)
+##### [Report (greek)](https://github.com/p17griv/chang-roberts-algorithm-implementation/blob/master/report-gr.pdf)
 
 ### About Chang-Roberts Algorithm
 
